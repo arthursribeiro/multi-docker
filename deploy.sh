@@ -1,6 +1,6 @@
 docker build -t arthursribeiro/multi-client:latest -t arthursribeiro/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t arthursribeiro/multi-server:latest -t arthursribeiro/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t arthursribeiro/multi-worker:latest -t arthursribeiro/multi-worker:$Sha -f ./worker/Dockerfile ./worker
+docker build -t arthursribeiro/multi-worker:latest -t arthursribeiro/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push arthursribeiro/multi-client:latest
 docker push arthursribeiro/multi-server:latest
